@@ -1,0 +1,258 @@
+{
+    "total": 5523825,
+    "offset": 0,
+    "next": 20,
+    "data": [
+        {
+            "paperId": "aef90d1452c1854860645cc5c7065ea70213650d",
+            "externalIds": {
+                "DOI": "10.1016/j.chempr.2025.102664",
+                "CorpusId": 280238607
+            },
+            "url": "https://www.semanticscholar.org/paper/aef90d1452c1854860645cc5c7065ea70213650d",
+            "title": "Strategic scaffold redesign of ecteinascidins: An approach for generating anticancer macrocycles",
+            "venue": "Chem",
+            "year": 2025,
+            "referenceCount": 61,
+            "citationCount": 2,
+            "influentialCitationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": None,
+                "license": None,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.chempr.2025.102664?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.chempr.2025.102664, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "fieldsOfStudy": None,
+            "journal": {
+                "name": "Chem"
+            },
+            "authors": [
+                {
+                    "authorId": "51194748",
+                    "name": "Ryo Tanifuji"
+                },
+                {
+                    "authorId": "2373288173",
+                    "name": "Erina Hosono"
+                },
+                {
+                    "authorId": "2373298623",
+                    "name": "Hisae Kamakura"
+                },
+                {
+                    "authorId": "7896476",
+                    "name": "Y. Muramatsu"
+                },
+                {
+                    "authorId": "2160961281",
+                    "name": "Satoshi Yoshida"
+                },
+                {
+                    "authorId": "2271259420",
+                    "name": "S. Sato"
+                },
+                {
+                    "authorId": "5292374",
+                    "name": "Y. Ohashi"
+                },
+                {
+                    "authorId": "2372626105",
+                    "name": "S. Dan"
+                },
+                {
+                    "authorId": "6428329",
+                    "name": "H. Seimiya"
+                },
+                {
+                    "authorId": "2270857765",
+                    "name": "Hiroki Oguri"
+                }
+            ],
+            "abstract": None
+        },
+        {
+            "paperId": "cfc84a4d2078c821b612d8e4662de8b2c80acc5c",
+            "externalIds": {
+                "MAG": "2340150951",
+                "DOI": "10.1021/ACS.CGD.6B00246",
+                "CorpusId": 102193863
+            },
+            "url": "https://www.semanticscholar.org/paper/cfc84a4d2078c821b612d8e4662de8b2c80acc5c",
+            "title": "Occurence of Charge-Assisted Hydrogen Bonding in Bis-amidine Complexes Generating Macrocycles",
+            "venue": "",
+            "year": 2016,
+            "referenceCount": 57,
+            "citationCount": 27,
+            "influentialCitationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": None,
+                "disclaimer": "Notice: The following paper fields have been elided by the publisher: {"abstract"}. Paper orabstract available at https://api.unpaywall.org/v2/10.1021/ACS.CGD.6B00246?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/ACS.CGD.6B00246, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "fieldsOfStudy": [
+                "Chemistry"
+            ],
+            "journal": {
+                "name": "Crystal Growth & Design",
+                "pages": "3271-3278",
+                "volume": "16"
+            },
+            "authors": [
+                {
+                    "authorId": "48974492",
+                    "name": "L. Pop"
+                },
+                {
+                    "authorId": "9926390",
+                    "name": "N. Hădade"
+                },
+                {
+                    "authorId": "144555798",
+                    "name": "Arie Lee"
+                },
+                {
+                    "authorId": "5666383",
+                    "name": "M. Barboiu"
+                },
+                {
+                    "authorId": "6937878",
+                    "name": "I. Grosu"
+                },
+                {
+                    "authorId": "39385731",
+                    "name": "Y. Legrand"
+                }
+            ],
+            "abstract": None
+        },
+        {
+            "paperId": "cd5740d64aacc83379b4618b580abd714442dadf",
+            "externalIds": {
+                "DOI": "10.1021/acs.orglett.5c02656",
+                "CorpusId": 280524013,
+                "PubMed": "40758979"
+            },
+            "url": "https://www.semanticscholar.org/paper/cd5740d64aacc83379b4618b580abd714442dadf",
+            "title": "Adaptive Cyclooctatetrathiophene-Tetrazine Macrocycles: Efficient Synthesis, Structures, and Fullerene Recognition.",
+            "venue": "Organic Letters",
+            "year": 2025,
+            "referenceCount": 42,
+            "citationCount": 3,
+            "influentialCitationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": None,
+                "license":None,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acs.orglett.5c02656?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acs.orglett.5c02656, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "fieldsOfStudy": [
+                "Medicine"
+            ],
+            "journal": {
+                "name": "Organic letters"
+            },
+            "authors": [
+                {
+                    "authorId": "2312198819",
+                    "name": "Xin Huang"
+                },
+                {
+                    "authorId": "2375298068",
+                    "name": "Jie Yang"
+                },
+                {
+                    "authorId": "2107681664",
+                    "name": "Jie Xie"
+                },
+                {
+                    "authorId": "2293167580",
+                    "name": "Siyu Li"
+                },
+                {
+                    "authorId": "2274822839",
+                    "name": "M. Xiao"
+                },
+                {
+                    "authorId": "51147588",
+                    "name": "Guangxia Wang"
+                },
+                {
+                    "authorId": "2271715212",
+                    "name": "Hua Wang"
+                }
+            ],
+            "abstract": "A novel class of cyclooctatetrathiophene-tetrazine macrocycles was synthesized efficiently from COTh derivatives and 3,6-dichlorotetrazine, with structures confirmed by single-crystal X-ray analysis. Macrocycles 1 and 2 with large cavities could be efficient for encapsulating C60 and C70, forming a 1:1 complex with association constants exceeding 103 M-1. These host-guest behaviors demonstrate that COTh-based macrocycles serve as adaptive macrocyclic hosts, generating shape complementarity cavities and optimal size to enable effective π-π interactions with the fullerenes."
+        },
+        {
+            "paperId": "f188864c0cfa5162f8691d630b1a705f30ded3d1",
+            "externalIds": {
+                "PubMedCentral": "11350735",
+                "DOI": "10.1021/jacsau.4c00352",
+                "CorpusId": 272143570,
+                "PubMed": "39211620"
+            },
+            "url": "https://www.semanticscholar.org/paper/f188864c0cfa5162f8691d630b1a705f30ded3d1",
+            "title": "Solid-Phase Synthesis of Diverse Macrocycles by Regiospecific 2-Pyridone Formation: Scope and Applications",
+            "venue": "JACS Au",
+            "year": 2024,
+            "referenceCount": 30,
+            "citationCount": 4,
+            "influentialCitationCount": 0,
+            "openAccessPdf": {
+                "url": "https://doi.org/10.1021/jacsau.4c00352",
+                "status": "GOLD",
+                "license": "CCBYNCND",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11350735, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "fieldsOfStudy": [
+                "Medicine"
+            ],
+            "journal": {
+                "name": "JACS Au",
+                "pages": "3018 - 3027",
+                "volume": "4"
+            },
+            "authors": [
+                {
+                    "authorId": "1992991034",
+                    "name": "S. Abboud"
+                },
+                {
+                    "authorId": "2252231967",
+                    "name": "Thomas Kodadek"
+                }
+            ],
+            "abstract": "This study introduces a novel solid-phase macrocyclization method generating 2-pyridone rings. This method relies on the intramolecular condensation between secondary and tertiary dimethoxy-propionic amide units. This selective reaction leads to the formation of a single well-defined regioisomer. The method demonstratesremarkable efficiency in producing diverse peptidic and nonpeptidic bioactive targets, paving the way for the development of innovative macrocycle libraries featuring the 2-pyridone unit."
+        },
+        {
+            "paperId": "7f9ad7a709bf96994b0478ca3994e56533b8f155",
+            "externalIds": {
+                "DOI": "10.1016/j.bbamem.2023.184196",
+                "CorpusId": 259322212,
+                "PubMed": "37400050"
+            },
+            "url": "https://www.semanticscholar.org/paper/7f9ad7a709bf96994b0478ca3994e56533b8f155",
+            "title": "Beyond rule-of-five: Permeability assessment of semi-PEPTIDIC macrocycles.",
+            "venue": "Biochimica et Biophysica Acta - Biomembranes",
+            "year": 2023,
+            "referenceCount": 61,
+            "citationCount": 6,
+            "influentialCitationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": None,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.bbamem.2023.184196?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.bbamem.2023.184196, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "fieldsOfStudy": [
+                "Medicine"
+            ],
+            "journal": {
+                "name": "Biochimica et biophysicaacta. Biomembranes",
+                "pages": "\n          184196\n        "
+            },
+            "authors": [
+                {
+                    "authorId": "2221040131",
+                    "name": "MarionL"Exact"}, {"authorId": "94610245", "name": "Christian Comeau"}, {"authorId": "2323451306", "name": "Alix Bourhis"}, {"authorId": "2095314264", "name": "O. Boisvert"}, {"authorId": "2095028889", "name": "Ulrike Fröhlich"}, {"authorId":"34170993", "name": "Danny Letourneau"}, {"authorId": "4164641", "name": "É. Marsault"}, {"authorId": "3539322", "name": "P. Lavigne"}, {"authorId": "4464454", "name": "M. Grandbois"}, {"authorId": "2203119517", "name": "Pierre-Luc Boudreault"}], "abstract": "Compounds beyond the rule-of-five are generating interest as they expand the molecular toolbox for modulating targets previously considered "undruggable". Macrocyclic peptides are an efficient class of moleculesfor modulating protein-protein interactions. However, predicting their permeability is difficult as they differ from small molecules. Although constrained by macrocyclization, they generally retain some conformational flexibility associated with an enhanced ability to cross biological membranes. In this study, we investigated the relationship between the structure of semi-peptidic macrocycles and their membrane permeability through structural modifications. Based on a scaffold of four amino acids and a linker, we synthesized 56 macrocycles incorporating modifications in either stereochemistry, N-methylation, or lipophilicity and assessed their passive permeability using the parallel artificial membrane permeability assay (PAMPA). Our results show that some semi-peptidic macrocycles have adequate passive permeability even with properties outside the Lipinski rule of five. We found that N-methylation in position 2 and the addition of lipophilic groups to the side chain of tyrosine led to an improvement in permeability with a decrease in tPSA and 3D-PSA. This enhancement could be attributed to the shielding effect of the lipophilic group on some regions of the macrocycle, which in turn, facilitates a favorable macrocycle conformation for permeability, suggesting some degree of chameleonic behavior."}, {"paperId": "9a830f63cc13e2d8ebc392f3505322b72ae87d4f", "externalIds": {"PubMedCentral": "10569172", "DOI": "10.1021/acs.analchem.3c01742", "CorpusId": 262067373, "PubMed": "37724843"}, "url": "https: //www.semanticscholar.org/paper/9a830f63cc13e2d8ebc392f3505322b72ae87d4f", "title": "De Novo Sequencing of Synthetic Bis-cysteine Peptide Macrocycles Enabled by “Chemical Linearization” of Compound Mixtures", "venue": "Analytical Chemistry", "year":2023, "referenceCount": 47, "citationCount": 2, "influentialCitationCount": 0, "openAccessPdf": {"url": "", "status":"CLOSED", "license": "CCBY", "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10569172, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Medicine"], "journal": {"name": "Analytical Chemistry", "pages": "14870 - 14878", "volume": "95"}, "authors": [{"authorId": "2243255687", "name": "Zhi"ang Chen"}, {"authorId": "2244163225", "name": "Y. Lim"}, {"authorId": "2093913552", "name": "Jin Yong Neo"}, {"authorId": "2243278129", "name": "Rachel Shu Ting Chan"}, {"authorId": "2243278051", "name": "Li Quan Koh"}, {"authorId": "32175326", "name": "T. Yuen"}, {"authorId": "2244163227", "name": "Yee Hwee Lim"}, {"authorId": "2268730803", "name": "Charles W. Johannes"}, {"authorId": "2253579", "name": "Zachary P. Gates"}], "abstract": "A “chemical linearization” approach was applied to synthetic peptide macrocycles to enable their de novo sequencing from mixtures using nanoliquid chromatography–tandem mass spectrometry (nLC–MS/MS). This approach—previously applied to individual macrocycles but not to mixtures—involves cleavage of the peptide backbone at a defined position to give a product capable of generating sequence-determining fragment ions. Here, we first established the compatibility of “chemical linearization” by Edman degradation with a prominent macrocycle scaffold based on bis-Cys peptides cross-linked with the m-xylene linker, which are of major significance in therapeutics discovery. Then, using macrocycle libraries of known sequence composition, the ability to recover accurate de novo assignments to linearized products was critically tested using performance metrics unique to mixtures. Significantly, we show that linearized macrocycles can be sequenced with lower recall compared to linear peptides but with similar accuracy, which establishes the potential of using “chemical linearization” with synthetic libraries and selection procedures that yield compound mixtures. Sodiated precursor ions were identified as a significant source of high-scoring but inaccurate assignments, with potential implications for improving automated de novo sequencing more generally."}, {"paperId": "be098cfd323d7a378a0b961cc9d616040d82ccf6", "externalIds": {"MAG": "3022626039", "DOI": "10.1002/anie.202001523", "CorpusId": 218563167, "PubMed": "32384209"}, "url": "https://www.semanticscholar.org/paper/be098cfd323d7a378a0b961cc9d616040d82ccf6", "title": "Dissipative assembly of macrocycles comprising multiple transient bonds.", "venue": "Angewandte Chemie", "year": 2020, "referenceCount": 74, "citationCount": 34, "influentialCitationCount": 1, "openAccessPdf": {"url": "https://rss.onlinelibrary.wiley.com/doi/am-pdf/10.1002/ange.202001523", "status": "BRONZE", "license": "publisher-specific, author manuscript", "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/anie.202001523?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/anie.202001523, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy":["Medicine", "Chemistry"], "journal": {"name": "Angewandte Chemie"}, "authors": [{"authorId": "40530424", "name": "M.M. Hossain"}, {"authorId": "1685598555", "name": "Joshua L Atkinson"}, {"authorId": "34265271", "name": "C. Hartley"}], "abstract": "Dissipative (nonequilibrium) assembly powered by chemical fuels has great potential for the creation of new adaptive chemical systems. However, while molecular assembly at equilibrium is routinely used to prepare complexarchitectures from polyfunctional monomers, species formed out of equilibrium have, to this point, been structurally very simple. In most examples the fuel simply effects the formation of a single short-lived covalent bond. Here, we show that chemical fuels can assemble bifunctional components into macrocycles containing multiple transient bonds. Specifically, dicarboxylic acids give aqueous dianhydride macrocycles on treatment with a carbodiimide. The macrocycles are assembled efficiently as a consequence of both fuel-dependent and -independent mechanisms: they undergo slower decomposition, building up as the fuel recycles the components, and are a favored product of the dynamic exchange of the anhydride bonds. These results create new possibilities for generating structurally sophisticated out-of-equilibrium species."}, {"paperId": "af19dffa57588ff521029260b4b5c2b51923d5e5", "externalIds": {"MAG": "2992264695", "DOI": "10.1021/jacs.9b11518", "CorpusId": 208956344, "PubMed": "31814397"}, "url": "https://www.semanticscholar.org/paper/af19dffa57588ff521029260b4b5c2b51923d5e5", "title": "Guest Inclusion Modulates Concentration and Persistence of Photogenerated Radicals in Assembled Triphenylamine Macrocycles.", "venue": "Journal of the American Chemical Society", "year": 2019, "referenceCount": 35, "citationCount": 20, "influentialCitationCount": 0, "openAccessPdf": {"url": "https://doi.org/10.1021/jacs.9b11518.s001", "status": "BRONZE", "license": None, "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/jacs.9b11518?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/jacs.9b11518, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Medicine", "Chemistry"], "journal": {"name": "Journal of the American Chemical Society"}, "authors": [{"authorId": "51304406", "name": "Ammon J. Sindt"}, {"authorId": "46602763", "name": "Baillie A. DeHaven"}, {"authorId": "1453081396", "name": "Dustin W. Goodlett"}, {"authorId": "153182802", "name": "J. Hartel"}, {"authorId": "1453113745", "name": "P. Ayare"}, {"authorId": "2143906949", "name": "Yong Du"}, {"authorId": "1390830344", "name": "Mark D. Smith"}, {"authorId": "7522200", "name": "A. Mehta"}, {"authorId": "3441264", "name": "Alexander M. Brugh"}, {"authorId": "144609421", "name": "M. Forbes"}, {"authorId": "4676274", "name": "C. Bowers"}, {"authorId": "38472856", "name": "Aaron K. Vannucci"}, {"authorId": "9854693", "name": "L. S. Shimizu"}], "abstract": "Substituted triphenylamine (TPA) radical cations show great potential as oxidants and as spin containing units in polymer magnets. Their properties can be further tuned by supramolecular assembly. Here, weexamine how the properties of photogenerated radical cations, intrinsic to TPA macrocycles, are altered upon their self-assembly into 1D columns. These macrocycles consist of two TPAs and two methylene ureas which drive the assembly into porous organic materials. Advantageously, upon activation the crystals can undergo guest exchange in a single-crystal-to-single-crystal transformation generating a series of isoskeletal host-guest complexes whose properties can be directly compared. Photoinduced electron transfer, initiated using 365 nm LED"s, affords radicals at room temperature asobserved by EPR spectroscopy. The line shape of the EPR spectra and the quantity of radicals can be modulated by bothpolarity and heavy atom inclusion of the encapsulated guest. These photogenerated radicals are persistent, with half-lives between 1-7 days and display no degradation upon radical decay. Re-irradiation of the samples can restore the radical concentration back to a similar maximum concentration, a feature that is reproducible over several cycles. EPR simulations of a representative spectrum indicate two species, one containing two N hyperfine interactions and an additional broad signal with no resolvable hyperfine interaction. Intriguingly, TPA analogs without bromine substitution also exhibit similar quantities of photogenerated radicals, suggesting that supramolecular strategies can enable more flexibility in stable TPA radical structures. These studies will help guide the development of new photoactive materials."}, {"paperId": "7837d6873ea504c576d3d9b367c93499352fdaa7", "externalIds": {"MAG": "2484160537", "PubMedCentral": "5465426", "DOI": "10.1021/acs.jctc.6b00250", "CorpusId": 24289172, "PubMed": "27447193"}, "url": "https://www.semanticscholar.org/paper/7837d6873ea504c576d3d9b367c93499352fdaa7", "title": "Exhaustive Conformational Sampling of Complex Fused Ring Macrocycles Using Inverse Kinematics", "venue": "Journal of Chemical Theory and Computation", "year": 2016, "referenceCount": 48, "citationCount": 58, "influentialCitationCount": 2, "openAccessPdf": {"url": "https://escholarship.org/content/qt5ms31114/qt5ms31114.pdf?t=rvtxlj", "status": "GREEN", "license": "other-oa", "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC5465426, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Computer Science", "Medicine"], "journal": {"name": "Journal of chemical theory and computation", "pages": "4674 - 4687", "volume": "12"}, "authors": [{"authorId": "2915589", "name": "E. Coutsias"}, {"authorId": "2654425", "name": "Katrina W. Lexa"}, {"authorId": "1711910", "name": "M. Wester"}, {"authorId": "2071502538", "name": "Sara N. Pollock"}, {"authorId": "1878813", "name": "M. Jacobson"}], "abstract": "Natural productand synthetic macrocycles are chemically and topologically diverse. An efficient, accurate, and general method for generating macrocycle conformations would enable structure-based design of macrocycle drugs or host–guest complexes. Computational sampling also provides insight into transiently populated states, complementing crystallographic and NMR data. Here, we report a new algorithm, BRIKARD, that addresses this challenge through computational algebraic geometry and inverse kinematics together with local energy minimization. BRIKARD is demonstrated on 67 diverse macrocycles with structural data, encompassing various ring topologies. We find this approach enumerates diverse structures with macrocyclic RMSD < 1.0 Å to the experimental conformation for 85% of our data set in contrast to success rates of 67–75% with other approaches, while for the subset of 21 more challenging compounds in the data set, these rates are 57% and 10–29%, respectively. Because the algorithm can be efficiently run in parallel on many processors, exhaustive conformational sampling of complex cycles can be obtained in minutes rather than hours: with a 40 processor implementation protocol, BRIKARD samples the conformational diversity of a potential energy landscape in a median of 1.3 minutes of wallclock time, much faster than 3.1–10.3 hours necessary with current programs. By rigorously testing BRIKARD on a broad range of scaffolds with highly complex ring systems, we push the frontiers of macrocycle sampling to encompass multiring compounds, including those with more than 50 ring atoms and up to seven interlaced flexible rings."}, {"paperId": "b49abdcb8e196732e96c5f08624993aeeb2cc1c0", "externalIds": {"MAG": "2485399056", "PubMedCentral": "5025730", "DOI": "10.1002/anie.201605460", "CorpusId": 26353289, "PubMed": "27484830"}, "url": "https://www.semanticscholar.org/paper/b49abdcb8e196732e96c5f08624993aeeb2cc1c0", "title": "A Multidimensional Diversity‐Oriented Synthesis Strategy for Structurally Diverse and Complex Macrocycles", "venue": "Angewandte Chemie", "year": 2016, "referenceCount": 53, "citationCount":46, "influentialCitationCount": 0, "openAccessPdf": {"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ange.201605460", "status": "HYBRID", "license": "CCBY", "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC5025730, which is subject to the license by the author or copyright owner provided withthis content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Medicine", "Computer Science"], "journal": {"name": "Angewandte Chemie (International Ed. in English)", "pages": "11139 - 11143", "volume": "55"}, "authors": [{"authorId": "4889445", "name": "Feilin Nie"}, {"authorId": "6973218", "name": "D. Kunciw"}, {"authorId": "152548029", "name": "David Wilcke"}, {"authorId": "39035505", "name": "Jamie E. Stokes"}, {"authorId": "145877666", "name": "W. Galloway"}, {"authorId": "40546123", "name": "S. Bartlett"}, {"authorId":"40880975", "name": "H. Sore"}, {"authorId": "1761031", "name": "D. Spring"}], "abstract": "Abstract Synthetic macrocycles are an attractive area in drug discovery. However, their use has been hindered by a lack of versatile platforms for the generation of structurally (and thus shape) diverse macrocycle libraries. Herein, we describe a new concept inlibrary synthesis, termed multidimensional diversity‐oriented synthesis, and its application towards macrocycles. This enabled the step‐efficient generation of a library of 45 novel, structurally diverse, and highly‐functionalized macrocycles based around a broad range of scaffolds and incorporating a wide variety of biologically relevant structural motifs. The synthesis strategy exploited the diverse reactivity of aza‐ylides and imines, and featured eight different macrocyclization methods, two of which were novel. Computational analyses reveal a broad coverage of molecular shape space by the library and provides insight into how the various diversity‐generating steps of the synthesis strategy impact on molecular shape."}, {"paperId": "b5bdc99a48a8243b4cecad8b394552e547cb866c", "externalIds": {"MAG": "2792170781", "DOI": "10.1021/acs.joc.7b02958", "CorpusId": 3903538, "PubMed": "29494773"}, "url": "https://www.semanticscholar.org/paper/b5bdc99a48a8243b4cecad8b394552e547cb866c", "title": "Assembly of Complex Macrocycles by Incrementally Amalgamating Unprotected Peptides with a Designed Four-Armed Insert.", "venue": "Journal of Organic Chemistry", "year": 2018, "referenceCount": 0, "citationCount": 7, "influentialCitationCount": 0, "openAccessPdf": {"url": "", "status": "CLOSED", "license": None, "disclaimer": "Notice: The following paper fields have been elided by the publisher: {"abstract"}.Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acs.joc.7b02958?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acs.joc.7b02958, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Chemistry", "Medicine"], "journal": {"name": "The Journal of organic chemistry", "pages": "\n          3090-3108\n     ", "volume": "83 6"}, "authors": [{"authorId": "39943494", "name": "B. Curtin"}, {"authorId": "48445171", "name": "F. Manoni"}, {"authorId": "48490944", "name": "Jiyong Park"}, {"authorId": "16277024", "name": "Luke J. Sisto"}, {"authorId": "5992545", "name": "Yu-hong Lam"}, {"authorId": "144749521", "name": "M. Gravel"}, {"authorId": "3823285", "name": "A. Roulston"}, {"authorId": "4197988", "name": "P. Harran"}], "abstract": None}, {"paperId": "268d0dcb40bf5e1cf998fcaf62415f10ce1a33e2", "externalIds": {"MAG": "3016149306", "DOI": "10.1002/pep2.24160", "CorpusId": 216358139}, "url": "https://www.semanticscholar.org/paper/268d0dcb40bf5e1cf998fcaf62415f10ce1a33e2", "title": "Proline‐to‐cysteinecyclization for generating conformationally constrained cyclic peptides", "venue": "", "year": 2020, "referenceCount": 27, "citationCount": 2, "influentialCitationCount": 0, "openAccessPdf": {"url": "", "status": "CLOSED", "license": None, "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/pep2.24160?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/pep2.24160, which is subject to the license by the author or copyright ownerprovided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Chemistry"], "journal": {"name": "Peptide Science", "volume": "112"}, "authors": [{"authorId": "2086437838", "name": "J. Frost"}, {"authorId": "1659132906", "name": "Jake Z. Essman"}, {"authorId": "2111198955", "name": "Chunhui Huang"}, {"authorId": "145815504", "name": "Nicholas A. Pierson"}, {"authorId": "4577817", "name": "NatalyaPissarnitski"}, {"authorId": "2056088124", "name": "Tao Meng"}], "abstract": "Macrocyclic peptides have received increasing attention throughout the pharmaceutical industry as attractive scaffolds for the development of new therapeutics. Here, we describe the development of a new proline‐to‐cysteine (PTC) peptide cyclization reaction. Peptide sequences flanked by an N‐terminal proline and a C‐terminal cysteine were reacted with α,α′‐dibromo‐m‐xylene to furnish cyclicpeptides bearing a tertiary amine embedded within the macrocycle backbone. Macrocyclization proceeded efficiently in solution and on‐resin with peptides of different sequence lengths (5‐10 amino acids) and amino acid compositions. Thisapproach was also applied for peptide bicyclization. Liquid chromatography mass spectrometry (LC‐MS)/MS analysis of afingerprint ion related to the PTC linkage that was present throughout the substrate scope expedited confirmation of the product cyclic topologies. Conformational studies by variable‐temperature NMR revealed PTC macrocycles can adopt arigid structure and display an intramolecular hydrogen‐bonding pattern that differs significantly from their cysteine‐to‐cysteine linked counterparts, further highlighting the value of this alternative cyclization approach. Due to its compatibility with library‐based peptide display and selection technologies, the described approach could offer significant utility in drug discovery campaigns."}, {"paperId": "960a88778d21410ac22ff3a28c1e13265d7441cd", "externalIds": {"DOI": "10.1002/anie.202421108", "CorpusId": 275211422, "PubMed": "39743678"}, "url": "https://www.semanticscholar.org/paper/960a88778d21410ac22ff3a28c1e13265d7441cd", "title": "2,3:6,7‒Naphthalenediimide-based Chiral Triangular Macrocycle: Self-Assembled Helix, Outer π-surface Directed Co-assembly and Circularly Polarized Luminescence.", "venue": "Angewandte Chemie", "year": 2025, "referenceCount": 0, "citationCount": 24, "influentialCitationCount": 0, "openAccessPdf": {"url": "", "status": "CLOSED", "license": None, "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/anie.202421108?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/anie.202421108, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Medicine"], "journal": {"name": "Angewandte Chemie", "pages": "\n          e202421108\n        "}, "authors": [{"authorId": "2212930162", "name": "Shengfu Wu"}, {"authorId": "2282638731", "name": "Xin Song"}, {"authorId": "2338357542", "name": "Jie Lu"}, {"authorId": "2310075824", "name": "Wenchao Hao"}, {"authorId": "2283080560", "name": "Minghua Liu"}], "abstract": "Here, we report the synthesis and self-assembly of a novel chiral 2,3:6,7‒naphthalenediimide-based triangular macrocycle (NDI-∆) and their chiroptical properties. The enantiomeric NDI-∆ is synthesized by condensation of (RR) or (SS)-trans-1,2-cyclohexanediamine and 2,3,6,7-naphthalenetetracarboxylic 2,3:6,7-dianhydride, in which the chirality of the macrocycles is controlled by the diamine. With the rigid outer π-surface, the macrocycle showed unique chiroptical properties and self-assembly modes. The NDI-∆ showed circularly polarized luminescence (CPL) in solution and can self-assemble into helical structureswith the inversion of CPL signal and the enhancement of |glum|. Moreover, the NDI-∆ has a tailored electron-deficientouter π-surface, which can co-assemble with an electron-rich anthracene (AN) to form an intermolecular charge transfer (CT) complex, generating a yellow-green CT-CPL. Crystal structure analysis confirms that AN is mounted on the outer surface of NDI-∆ through π-π stacking and C-H···π interactions. This work provides a critical example for self-assembly of macrocycles into helical structures and outer π-surface directed CT complexes formation, opening up a new clue for designing chiral macrocycle-based chiroptical materials."}, {"paperId": "a3a46e061355eac8d4c3fcbdfcedc9b22ea58285", "externalIds": {"PubMedCentral": "12304874", "DOI": "10.1002/anie.202507126", "CorpusId": 278771515, "PubMed": "40392605"}, "url": "https://www.semanticscholar.org/paper/a3a46e061355eac8d4c3fcbdfcedc9b22ea58285", "title": "Isothiourea‐Catalysed Acylative Kinetic and Dynamic Kinetic Resolution of Planar Chiral Paracyclophanols", "venue": "Angewandte Chemie", "year": 2025, "referenceCount": 0, "citationCount": 11, "influentialCitationCount": 0, "openAccessPdf": {"url": "", "status": None, "license": "CCBY", "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12304874, which is subject to the license by the author or copyright owner provided with this content.Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Medicine"], "journal": {"name": "Angewandte Chemie (International Ed. in English)", "volume": "64"}, "authors": [{"authorId": "2299741088", "name": "Zhanyu Zhou"}, {"authorId": "46501048", "name": "Kevin Kasten"}, {"authorId": "2300166552", "name": "Aidan P McKay"}, {"authorId": "2300166516", "name": "D. Cordes"}, {"authorId": "2258128648", "name": "Andrew D Smith"}], "abstract": "Abstract The development of synthetic methods for the catalytic enantioselective preparation of planar chiral paracyclophane derivatives is of considerable interest to the synthetic community. To date, relatively few successful and effective organocatalytic approaches to this molecular class have been reported. This manuscript describes effective isothiourea catalysed acylative kinetic (KR) and dynamic kinetic resolution (DKR) approaches to the generation of a range of planar chiral paracyclophane macrocycles with excellent levels of enantioselectivity. EffectiveKR of configurationally stable planar chiral paracyclophanols with 12‐ and 13‐membered ansa‐chains is demonstrated (6examples, s = up to 50) using 5 mol% of the isothiourea (R)‐BTM and isobutyric anhydride. Application to configurationally labile macrocyclic phenols with 14 to 18‐membered ansa‐chains allows their effective acylative DKR, generating the desired products with excellent enantioselectivity (25 examples, up to 95% yield and 98:2 er)."}, {"paperId": "25fb90b0377b5fcf27d9a8dde7cd8df76e6b0862", "externalIds": {"MAG": "2160134664", "DOI": "10.1039/C1RA00768H", "CorpusId": 98020487}, "url": "https://www.semanticscholar.org/paper/25fb90b0377b5fcf27d9a8dde7cd8df76e6b0862", "title": "Cucurbituril chemistry: a tale of supramolecular success", "venue": "", "year": 2012, "referenceCount": 401, "citationCount": 740, "influentialCitationCount": 5, "openAccessPdf": {"url": "", "status": "CLOSED", "license": None, "disclaimer": "Notice: The following paper fields have been elided by the publisher: {"abstract"}. Paper or abstract available at https://api.unpaywall.org/v2/10.1039/C1RA00768H?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1039/C1RA00768H, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Chemistry"], "journal": {"name": "RSC Advances", "pages": "1213-1247", "volume": "2"}, "authors": [{"authorId": "145571409", "name": "E. Masson"}, {"authorId": "2111771252", "name": "Xiaoxi Ling"}, {"authorId": "15037395", "name": "Roymon Joseph"}, {"authorId": "1444434334", "name": "Lawrence Kyeremeh‐Mensah"}, {"authorId": "47062818", "name": "Xiaoyong Lu"}], "abstract": None}, {"paperId": "f91fccbf6047bbd1ab33de506760afebc422d62f", "externalIds": {"PubMedCentral": "12076493", "DOI": "10.1021/acs.biomac.5c00260", "CorpusId": 277611510, "PubMed": "40189806"}, "url": "https://www.semanticscholar.org/paper/f91fccbf6047bbd1ab33de506760afebc422d62f", "title": "Design and Production of Geranylated Cyclic Peptides by the RiPP Enzymes SyncM and PirF", "venue": "Biomacromolecules", "year": 2025, "referenceCount": 54, "citationCount": 4, "influentialCitationCount": 0,"openAccessPdf": {"url": "", "status": None, "license": "CCBY", "disclaimer": "Notice: Paper or abstract available athttps://pmc.ncbi.nlm.nih.gov/articles/PMC12076493, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Medicine"], "journal": {"name": "Biomacromolecules", "pages": "3186 - 3199", "volume": "26"}, "authors": [{"authorId": "2283509358", "name": "Yanli Xu"}, {"authorId": "2046840010", "name": "Fleur Ruijne"}, {"authorId": "2354084020", "name": "M. G. Diez"}, {"authorId": "2354085596", "name": "J. Stada"}, {"authorId": "2241828255", "name": "O. P. Kuipers"}], "abstract": "The growing threat of antibiotic resistance highlights the urgent need for new antimicrobial agents. Nonribosomal peptides (NRPs) are potent antibiotics with complex structures, but generating novel NRPanalogues is costly and inefficient. An emerging alternative is using ribosomally synthesized and post-translationally modified peptides (RiPPs), which are gene-encoded, allowing for easier mutagenesis and modification. This study aimed to produce peptides with two key structural elements of many NRP antibiotics: a macrocycle and an N-terminal lipid moiety. The RiPP enzymes SyncM and PirF were employed-SyncM introduced lanthionine or methyllanthionine macrocycles, while PirF incorporated isoprenyl chains to emulate the lipid moieties in NRPs. Both enzymes successfully modified the templates, and their combined use generated lipidated macrocyclic peptides, resembling lipopeptide antibiotics. These findings demonstrate the potential of SyncM and PirF as versatile tools for designing novel gene-encoded NRP mimics, enabling high-throughput screening for new bioactive peptides."}, {"paperId": "183851e9a194c28f6dc3c0e74d395ba089fe2d8c", "externalIds": {"MAG": "1981300064", "DOI": "10.1038/nchembio.184", "CorpusId": 38794087, "PubMed": "19483697"}, "url": "https://www.semanticscholar.org/paper/183851e9a194c28f6dc3c0e74d395ba089fe2d8c", "title": "Phage-encoded combinatorial chemical libraries based on bicyclic peptides.", "venue": "Nature Chemical Biology", "year": 2009, "referenceCount": 52, "citationCount": 636, "influentialCitationCount": 18, "openAccessPdf": {"url": "", "status": "CLOSED", "license": None, "disclaimer": "Notice: The following paper fields have been elided by the publisher: {"abstract"}. Paper orabstract available at https://api.unpaywall.org/v2/10.1038/nchembio.184?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/nchembio.184, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Chemistry", "Medicine"], "journal": {"name": "Nature chemical biology", "pages": "\n          502-7\n        ", "volume": "5 7"}, "authors": [{"authorId": "5334636", "name": "C. Heinis"}, {"authorId": "2860716", "name": "T. Rutherford"}, {"authorId": "2106242870", "name": "S. Freund"}, {"authorId": "144986532", "name": "G. Winter"}], "abstract": None}, {"paperId": "f61f9f9fd0dc2ba9d7fb9b62af42cb0c7fd5ff5b", "externalIds": {"MAG": "2165400731", "DOI": "10.1002/anie.201001604", "CorpusId": 34363173, "PubMed": "20715231"}, "url": "https://www.semanticscholar.org/paper/f61f9f9fd0dc2ba9d7fb9b62af42cb0c7fd5ff5b", "title": "Synchronized synthesis of peptide-based macrocycles by digital microfluidics.", "venue": "Angewandte Chemie", "year": 2010, "referenceCount": 47, "citationCount": 100, "influentialCitationCount": 2, "openAccessPdf": {"url": "", "status": "CLOSED", "license": None, "disclaimer": "Notice: The following paper fields have been elided by the publisher: {"abstract"}. Paper or abstract available at https://api.unpaywall.org/v2/10.1002/anie.201001604?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/anie.201001604, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Materials Science", "Medicine"], "journal": {"name": "Angewandte Chemie", "pages": "\n        8625-9\n        ", "volume": "49 46"}, "authors": [{"authorId": "5625287", "name": "Mais J. Jebrail"}, {"authorId": "144640910", "name": "Alphonsus H. C. Ng"}, {"authorId": "36654922", "name": "Vishal Rai"}, {"authorId": "6294749", "name": "R. Hili"}, {"authorId": "3566607", "name": "A. Yudin"}, {"authorId": "2233608", "name": "A. R. Wheeler"}], "abstract": None}, {"paperId": "5b3dbfb8645eb183bff733fdfedab5702e296036", "externalIds": {"MAG": "2054597154", "DOI": "10.1021/ja804415b", "CorpusId": 207128249, "PubMed": "19053414"}, "url": "https://www.semanticscholar.org/paper/5b3dbfb8645eb183bff733fdfedab5702e296036", "title": "Synthesis and two-photon absorption enhancement of porphyrin macrocycles.", "venue": "Journal of the American Chemical Society", "year": 2008, "referenceCount": 0, "citationCount": 82,"influentialCitationCount": 1, "openAccessPdf": {"url": "", "status": "CLOSED", "license": None, "disclaimer": "Notice: The following paper fields have been elided by the publisher: {"abstract"}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/ja804415b?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/ja804415b, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Chemistry", "Medicine"], "journal": {"name": "Journal of the American Chemical Society", "pages": "\n          17212-3\n        ", "volume": "130 51"}, "authors": [{"authorId": "4421528", "name": "Jeffery E. Raymond"}, {"authorId": "152811911", "name": "A. Bhaskar"}, {"authorId": "145716696", "name": "T. Goodson"}, {"authorId": "6932384", "name": "N. Makiuchi"}, {"authorId": "5371148", "name": "K. Ogawa"}, {"authorId": "6622736", "name": "Y. Kobuke"}], "abstract": None}, {"paperId": "a6b1c602d7499e54786a7dfac2156a6b79726708", "externalIds": {"MAG": "2002813152", "DOI": "10.1002/1099-0682(200106)2001:6<1475::AID-EJIC1475>3.0.CO;2-N","CorpusId": 96240578}, "url": "https://www.semanticscholar.org/paper/a6b1c602d7499e54786a7dfac2156a6b79726708", "title": "Fluorescent Chemosensors for Heavy Metal Ions Based on Bis(terpyridyl) Ruthenium(II) Complexes Containing Aza‐Oxaand Polyaza Macrocycles", "venue": "", "year": 2001, "referenceCount": 22, "citationCount": 33, "influentialCitationCount": 0, "openAccessPdf": {"url": "", "status": "CLOSED", "license": None, "disclaimer": "Notice: The following paperfields have been elided by the publisher: {"abstract"}. Paper or abstract available at https://api.unpaywall.org/v2/10.1002/1099-0682(200106)2001:6<1475::AID-EJIC1475>3.0.CO;2-N?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/1099-0682(200106)2001:6<1475::AID-EJIC1475>3.0.CO;2-N, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."}, "fieldsOfStudy": ["Chemistry"], "journal": {"name": "European Journal of Inorganic Chemistry", "pages": "1475-1482", "volume": "2001"}, "authors": [{"authorId": "1442087613", "name": "Miguel E. Padilla-Tosta"}, {"authorId": "13130977", "name": "J. Lloris"}, {"authorId": "1397727993", "name": "R. Martínez‐Máñez"}, {"authorId": "144161516", "name": "M. Marcos"}, {"authorId": "2248515213", "name": "Miguel\xa0A. Miranda"}, {"authorId": "39852803", "name": "T. Pardo"}, {"authorId": "3656979", "name": "F. Sancenón"}, {"authorId": "143939973", "name": "J. Soto"}], "abstract": None}]}

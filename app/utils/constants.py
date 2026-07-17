@@ -1,0 +1,16 @@
+PAPER_FIELDS = [
+    "paperId",
+    "title",
+    "abstract",
+    "authors",
+    "year",
+    "venue",
+    "journal",
+    "citationCount",
+    "referenceCount",
+    "influentialCitationCount",
+    "externalIds",
+    "url",
+    "openAccessPdf",
+    "fieldsOfStudy",
+]

@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# run artifacts & local data (not part of the tool)
+paper-input.txt
+paper-humanized.txt
+report.txt
+progress.log
+
+# local test/dev scripts (not part of the tool)
+verify_faithful.py
+show_blocks.py
+humanize_paper_report.py

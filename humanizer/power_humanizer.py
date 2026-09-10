@@ -35,10 +35,10 @@ def _env(name, default=""):
     return default
 
 OPENROUTER_KEY = _env("OPENROUTER_API_KEY")
-MODEL = _env("OPENROUTER_MODEL", "minimax/minimax-m3:free")
+MODEL = _env("OPENROUTER_MODEL", "nvidia/nemotron-3-super-120b-a12b:free")
 OR_URL = "https://openrouter.ai/api/v1/chat/completions"
 GEMINI_KEY = _env("GEMINI_API_KEY")
-GEMINI_MODEL = _env("GEMINI_MODEL", "gemini-3.6-flash")
+GEMINI_MODEL = _env("GEMINI_MODEL", "gemini-flash-lite-latest")
 
 REWRITE_SYSTEM = """You are a human editor rewriting text so it reads like a real person wrote it, not a chatbot. Keep the meaning; do not invent facts.
 
@@ -98,7 +98,14 @@ def rudra_prepass(text, retries=3):
 
 
 def _openrouter(messages, temperature=1.15, retries=5):
-    body = {"model": MODEL, "messages": messages, "temperature": temperature, "top_p": 0.97}
+    # reasoning off: the free models are reasoning models and otherwise dump their
+    # chain-of-thought into the output.
+    # Cap output length to roughly the INPUT length so the model can't balloon the
+    # text (nemotron will otherwise 7x the word count). ~1.5 tokens/word, x2 headroom.
+    user_words = sum(len(m["content"].split()) for m in messages if m.get("role") == "user")
+    max_toks = max(256, min(1400, int(user_words * 3)))
+    body = {"model": MODEL, "messages": messages, "temperature": temperature,
+            "top_p": 0.97, "max_tokens": max_toks, "reasoning": {"enabled": False}}
     data = json.dumps(body).encode("utf-8")
     for attempt in range(retries):
         try:
@@ -109,6 +116,14 @@ def _openrouter(messages, temperature=1.15, retries=5):
             })
             with urllib.request.urlopen(req, timeout=120) as r:
                 d = json.load(r)
+            # Free tier sometimes returns HTTP 200 with an error body (no 'choices').
+            if "choices" not in d or not d["choices"]:
+                msg = (d.get("error") or {}).get("message", str(d)[:120])
+                if attempt < retries - 1:
+                    w = 15 * (attempt + 1)
+                    print(f"  [no completion ({msg}), waiting {w}s]", file=sys.stderr)
+                    time.sleep(w); continue
+                raise RuntimeError(f"OpenRouter returned no completion: {msg}")
             return d["choices"][0]["message"]["content"].strip()
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < retries - 1:
@@ -142,7 +157,7 @@ def launder(text):
     return s4
 
 
-def _gemini(system, user, temperature=1.05, retries=4):
+def _gemini(system, user, temperature=0.7, retries=4):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
     body = {
         "systemInstruction": {"parts": [{"text": system}]},
@@ -157,11 +172,14 @@ def _gemini(system, user, temperature=1.05, retries=4):
                          "User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=120) as r:
                 d = json.load(r)
-            return d["candidates"][0]["content"]["parts"][-1]["text"].strip()
+            parts = (d.get("candidates") or [{}])[0].get("content", {}).get("parts")
+            if not parts:
+                raise RuntimeError("gemini returned no content")
+            return "".join(p.get("text", "") for p in parts).strip()
         except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < retries - 1:
-                w = 12 * (attempt + 1)
-                print(f"  [gemini 429, waiting {w}s]", file=sys.stderr); time.sleep(w); continue
+            if e.code in (429, 503) and attempt < retries - 1:
+                w = 8 * (attempt + 1)
+                print(f"  [gemini {e.code}, waiting {w}s]", file=sys.stderr); time.sleep(w); continue
             raise
 
 
@@ -178,9 +196,21 @@ _META_PATTERNS = [
     r"(?im)^\s*(sentence \d+|s\d+)\s*[:.\-].*$",
 ]
 
+# Self-review commentary the model sometimes appends ("No three-item parallel lists
+# remain. Sentence openings vary..."). Real academic prose never contains these.
+_META_SENTENCE = re.compile(
+    r"(parallel list|sentence opening|opening(s)? vary|clause structure|ai[- ]?tell|"
+    r"inflated phrase|three[- ]item|(facts?|technical terms?|meaning|length)"
+    r"[^.]{0,40}(preserved|unchanged|intact)|no (inflated|semicolon)|semicolons?,? or|"
+    r"per (the )?(rule|instruction)|as (an|the) opener)", re.I)
+
 def sanitize_meta(text):
     for pat in _META_PATTERNS:
         text = re.sub(pat, "", text)
+    # drop any sentence that is self-review commentary about the rewrite itself
+    sents = re.split(r"(?<=[.!?])\s+", text)
+    kept = [s for s in sents if s.strip() and not _META_SENTENCE.search(s)]
+    text = " ".join(kept)
     return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
@@ -214,10 +244,16 @@ DELIST_INSTR = ("\n\nCRITICAL: The previous version still contains lists of thre
 
 
 def _formal_rewrite(sysmsg, text):
-    """Formal rewrite via OpenRouter (per user's choice). Gemini is not used:
-    it rate-limits and leaks chain-of-thought into the output."""
+    """Formal rewrite via Gemini flash-lite: fast, faithful (no padding), clean output.
+    Falls back to OpenRouter only if Gemini is unavailable."""
+    if GEMINI_KEY:
+        try:
+            return _gemini(sysmsg, "Rewrite this:\n\n" + text, temperature=0.7)
+        except Exception as e:
+            print(f"  [gemini failed, falling back to openrouter: {e}]", file=sys.stderr)
     return _openrouter([{"role": "system", "content": sysmsg},
-                        {"role": "user", "content": "Rewrite this:\n\n" + text}])
+                        {"role": "user", "content": "Rewrite this:\n\n" + text}],
+                       temperature=0.6)
 
 
 def rewrite(text, formal=False):

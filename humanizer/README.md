@@ -1,13 +1,13 @@
 # My Humanizer
 
-A free AI-text humanizer tuned for research papers. Runs in the cloud (OpenRouter free
-model + Google Translate), so it needs no local GPU or heavy RAM.
+A free AI-text humanizer tuned for research papers. Runs in the cloud (Google Gemini for
+the rewrite + Google Translate for laundering), so it needs no local GPU or heavy RAM.
 
 ## Files
 - `power_humanizer.py` — the humanizer engine (formal + casual modes, laundering, auto-fixes).
 - `api.py` — HTTP route: send text, get humanized text back.
 - `humanize_paper_doc.py` — humanize a whole paper's body prose from a text file, keeping headers/references intact.
-- `.env` — your API keys (OpenRouter, and optional Gemini/Groq).
+- `.env` — your API keys (Gemini + OpenRouter).
 - `requirements.txt` — Python dependency.
 
 ## Setup (once)
@@ -38,12 +38,15 @@ python power_humanizer.py -f input.txt -o output.txt
 Flags: `--casual`, `--no-launder`, `--rudra`, `--model NAME`.
 
 ## Engine & limits
-- OpenRouter free model `minimax/minimax-m3:free` + Google Translate. All free.
-- OpenRouter free tier: ~20 requests/min, ~50 requests/day (no credits). Buying $10 of
-  OpenRouter credits once raises the daily cap to ~1000, enough for a full paper in one run.
-- ~5s per call; a paragraph uses 1-6 calls depending on mode.
+- **Formal rewrite: Google Gemini `gemini-flash-lite-latest`** — fast (~1-4s/paragraph) and
+  faithful (keeps length and facts). This is the default and does the main work.
+- **Laundering + fallback: OpenRouter** `nvidia/nemotron-3-super-120b-a12b:free` + Google Translate.
+- Free to run. Gemini's free tier (~15 req/min) is the practical ceiling; large papers just pace out.
+- Per HTTP request: **max 20,000 characters** (larger inputs must be chunked). Each paragraph
+  rewrite is capped at ~3,000 words output (never an issue for real paragraphs).
 
 ## Notes
-- Keys live in `.env`: `OPENROUTER_API_KEY`, `OPENROUTER_MODEL`, optional `GEMINI_API_KEY`, `GROQ_API_KEY`.
+- Keys live in `.env`: `GEMINI_API_KEY`, `GEMINI_MODEL`, `OPENROUTER_API_KEY`, `OPENROUTER_MODEL`.
+- Free model IDs change often. If a call returns 404, the model was retired — swap the id in `.env`.
 - Laundering lowers detector scores most but can reword specifics. For real papers, proofread
   the output against your original before submitting.
